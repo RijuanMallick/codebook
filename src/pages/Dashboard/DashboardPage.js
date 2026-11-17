@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { toast } from "react-toastify";
 import { useTitle } from "../../hooks/useTitle";
+import { toast } from "react-toastify";
 import { getUserOrders } from "../../services";
 import { DashboardCard } from "./components/DashboardCard";
 import { DashboardEmpty } from "./components/DashboardEmpty";
