@@ -1,6 +1,6 @@
 import { useTitle } from "../../hooks/useTitle";
-import { CartEmpty } from "./components/CartEmpty";
 import { CartList } from "./components/CartList";
+import { CartEmpty } from "./components/CartEmpty";
 import { useCart } from "../../context"
 
 export const CartPage = () => {
